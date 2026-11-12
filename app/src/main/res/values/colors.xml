@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="card_background">#FFE8F1FA</color>
+    <color name="screen_background">#FFD3E3F3</color>
+    <!-- фон окна: на телефоне визитка во весь экран, на планшете (values-sw600dp) — карточка на фоне -->
+    <color name="window_background">@color/card_background</color>
+    <color name="logo_background">#FF073042</color>
+    <color name="accent">#FF1B5E9E</color>
+    <color name="text_primary">#FF10212F</color>
+    <color name="text_secondary">#FF4A5A6A</color>
+    <color name="divider">#331B5E9E</color>
 </resources>
