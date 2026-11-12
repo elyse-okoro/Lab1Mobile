@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:background="@color/logo_background"
+        android:contentDescription="@string/avatar_description"
+        android:scaleType="fitCenter"
+        android:src="@drawable/android_logo"
+        app:contentPadding="@dimen/avatar_padding"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Lab1Mobile.Avatar" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/name_margin_top"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/full_name"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/name_text_size" />
+
+    <TextView
+        android:id="@+id/student_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/line_spacing"
+        android:gravity="center"
+        android:text="@string/student_course"
+        android:textColor="@color/accent"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/university"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/line_spacing"
+        android:gravity="center"
+        android:text="@string/university"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/subtitle_text_size" />
+
+</LinearLayout>

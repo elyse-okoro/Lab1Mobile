@@ -1,9 +1,30 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Lab1Mobile" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="android:colorBackground">@color/window_background</item>
+        <item name="colorSurface">@color/card_background</item>
     </style>
 
     <style name="Theme.Lab1Mobile" parent="Base.Theme.Lab1Mobile" />
+
+    <!-- строка контакта: значок слева, нажимается целиком -->
+    <style name="Widget.Lab1Mobile.Contact" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/contact_min_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:paddingStart">@dimen/contact_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/contact_padding_horizontal</item>
+        <item name="android:drawablePadding">@dimen/contact_icon_padding</item>
+        <item name="drawableTint">@color/accent</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/contact_text_size</item>
+    </style>
+
+    <style name="ShapeAppearance.Lab1Mobile.Avatar" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/avatar_corner_radius</item>
+    </style>
 </resources>
