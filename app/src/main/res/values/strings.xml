@@ -1,3 +1,11 @@
-<resources>
-    <string name="app_name">Lab1Mobile</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Business Card</string>
+    <string name="full_name">Linar Nurislamov</string>
+    <string name="student_group" tools:ignore="TypographyDashes">Group B22-191-1z</string>
+    <string name="university">Kalashnikov Izhevsk State Technical University</string>
+    <string name="avatar_description">Android logo</string>
+
+    <string name="contact_github">github.com/elyse-okoro</string>
+    <string name="contact_github_description">Open the GitHub profile github.com/elyse-okoro</string>
+    <string name="contact_app_not_found">No app on this device can open this link</string>
 </resources>
