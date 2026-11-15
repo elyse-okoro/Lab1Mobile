@@ -1,7 +1,7 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Business Card</string>
-    <string name="full_name">Elyse Okoro</string>
-    <string name="student_course">4th-year student</string>
+    <string name="full_name">Linar Nurislamov</string>
+    <string name="student_group" tools:ignore="TypographyDashes">Group B22-191-1z</string>
     <string name="university">Kalashnikov Izhevsk State Technical University</string>
     <string name="avatar_description">Android logo</string>
 

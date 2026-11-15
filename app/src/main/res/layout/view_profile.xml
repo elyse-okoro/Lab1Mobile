@@ -29,12 +29,12 @@
         android:textSize="@dimen/name_text_size" />
 
     <TextView
-        android:id="@+id/student_course"
+        android:id="@+id/student_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/line_spacing"
         android:gravity="center"
-        android:text="@string/student_course"
+        android:text="@string/student_group"
         android:textColor="@color/accent"
         android:textSize="@dimen/title_text_size"
         android:textStyle="bold" />
